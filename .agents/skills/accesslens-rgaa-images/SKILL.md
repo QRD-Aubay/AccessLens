@@ -1,6 +1,7 @@
 ---
 name: accesslens-rgaa-images
 description: Skill for auditing RGAA compliance of images in web content. Use this skill to generate analytical comments for Jira issues based on image accessibility criteria.
+user-invocable: false
 ---
 
 # Protocole d'audit RGAA — Thématique 1 : Images

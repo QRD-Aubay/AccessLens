@@ -74,17 +74,27 @@ faut changer, suggestion concrète).
 
 ## Étape 4 — Agréger et livrer
 
-1. **Fichier Markdown** : écris (ou mets à jour) `docs/accessibility/<TICKET-ID>-checklist.md`
-   avec :
-   - le besoin métier (sortie de l'étape 1)
-   - les changements de code identifiés (sortie de l'étape 2), y compris ceux marqués « hors
-     périmètre »
-   - pour chaque agent spécialisé invoqué à l'étape 3, sa checklist de règles RGAA telle quelle
-   - une section "Instructions pour le développeur / agent de dev" résumant les actions
-     concrètes à faire, fichier par fichier
+1. **Fichier Markdown** : écris (ou mets à jour) `docs/accessibility/<TICKET-ID>-checklist.md`.
+   Ce fichier est destiné exclusivement au développeur ou à l'agent de développement qui va
+   implémenter les changements : c'est une liste d'instructions à suivre, pas un rapport
+   d'analyse. N'y fais donc apparaître **ni** le besoin métier, **ni** le raisonnement des
+   analyses fonctionnelle/technique, **ni** de justification détaillée par critère RGAA — cette
+   matière reste dans les sorties intermédiaires et dans le commentaire Jira, pas dans ce
+   fichier. Structure-le uniquement autour de l'action, fichier par fichier :
+   - un titre avec l'identifiant du ticket
+   - pour chaque fichier concerné (regroupés par catégorie `Form` / `Image` si utile) : le
+     chemin du fichier, et pour chaque changement une instruction concrète et actionnable (quoi
+     modifier, où, et la référence courte du critère RGAA concerné entre parenthèses, sans
+     développer son contenu)
+   - si des éléments « hors périmètre » ont été détectés, une courte liste séparée les
+     mentionnant sans instruction associée (pas d'agent spécialisé disponible)
+   - pas de section supplémentaire (pas de résumé métier, pas de rappel de contexte, pas de
+     conclusion)
 2. **Commentaire Jira** : poste sur le ticket, via les tools MCP Atlassian, un commentaire
-   structuré reprenant les mêmes informations de façon condensée (titres, listes à puces), avec
-   une référence claire vers le fichier Markdown généré.
+   structuré reprenant le besoin métier (étape 1), les changements de code identifiés (étape 2,
+   y compris ceux marqués « hors périmètre ») et les checklists RGAA de l'étape 3, de façon
+   condensée (titres, listes à puces), avec une référence claire vers le fichier Markdown
+   généré.
 3. **Champ custom Jira "Accessibility Checklist"** : mets à jour ce champ via les tools MCP
    Atlassian avec un résumé synthétique (nombre de règles par thématique, statut "à traiter").
    Si aucun tool MCP ne permet de mettre à jour ce champ custom précis, indique-le clairement à

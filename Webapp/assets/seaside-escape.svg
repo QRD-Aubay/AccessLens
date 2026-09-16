@@ -1,0 +1,9 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#C9DCE5"/>
+  <rect y="420" width="1200" height="380" fill="#4FA7C9"/>
+  <path d="M0 470C94 438 198 430 300 446C402 462 501 522 612 530C723 538 810 474 908 454C1006 434 1106 446 1200 474V800H0V470Z" fill="#3B91B6"/>
+  <path d="M140 390L360 230L500 390H140Z" fill="#FFF9EC"/>
+  <path d="M460 390L720 170L950 390H460Z" fill="#F6F1E5"/>
+  <circle cx="980" cy="140" r="64" fill="#FFF0BF"/>
+  <text x="86" y="118" fill="#184A60" font-family="Arial, sans-serif" font-size="68" font-weight="700">Santorin</text>
+</svg>

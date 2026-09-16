@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizons Signature</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="accueil">
+    <nav class="topbar">
+      <div class="brand">Horizons Signature</div>
+      <div class="menu">
+        <a href="#destinations">Destinations</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Voyages sur mesure</p>
+      <h1>Des itineraires d'exception pour vos prochaines evasions</h1>
+      <p class="hero-text">
+        Nous imaginons des sejours premium entre villes iconiques, bords de mer et retraites alpines.
+      </p>
+      <a class="hero-link" href="#contact">Parler a un conseiller</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro" id="experience">
+      <div>
+        <p class="section-label">Notre signature</p>
+        <h2>Une agence de voyage pensee pour les projets les plus exigeants</h2>
+      </div>
+      <p>
+        De la lune de miel au voyage d'affaires haut de gamme, nous orchestrons chaque detail avec des partenaires
+        selectionnes pour leur sens du service et de l'exclusivite.
+      </p>
+    </section>
+
+    <section class="section carousel-section" id="destinations">
+      <div class="section-heading">
+        <p class="section-label">Inspirations</p>
+        <h2>Trois horizons pour commencer a rever</h2>
+      </div>
+
+      <div class="carousel">
+        <input checked type="radio" name="slides" id="slide-1">
+        <input type="radio" name="slides" id="slide-2">
+        <input type="radio" name="slides" id="slide-3">
+
+        <div class="slides">
+          <article class="slide">
+            <img src="assets/city-break.svg" alt="" class="slide-image">
+            <div class="slide-copy">
+              <p class="slide-tag">City break</p>
+              <h3>Capitales culturelles</h3>
+              <p>Architecture, tables confidentielles et hotels de caractere pour un week-end memorables.</p>
+            </div>
+            <div class="slide-controls">
+              <label for="slide-3">Precedent</label>
+              <label for="slide-2">Suivant</label>
+            </div>
+          </article>
+
+          <article class="slide">
+            <img src="assets/seaside-escape.svg" alt="photo de voyage" class="slide-image">
+            <div class="slide-copy">
+              <p class="slide-tag">Littoral</p>
+              <h3>Echappees mediterraneennes</h3>
+              <p>Des adresses lumineuses entre criques privees, voiliers et couchers de soleil sur la mer.</p>
+            </div>
+            <div class="slide-controls">
+              <label for="slide-1">Precedent</label>
+              <label for="slide-3">Suivant</label>
+            </div>
+          </article>
+
+          <article class="slide">
+            <img src="assets/mountain-retreat.svg" alt="image" class="slide-image">
+            <div class="slide-copy">
+              <p class="slide-tag">Altitude</p>
+              <h3>Retraites en montagne</h3>
+              <p>Suites panoramiques, spas et activites sur mesure pour prendre le temps de respirer.</p>
+            </div>
+            <div class="slide-controls">
+              <label for="slide-2">Precedent</label>
+              <label for="slide-1">Suivant</label>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-dots">
+          <label for="slide-1"></label>
+          <label for="slide-2"></label>
+          <label for="slide-3"></label>
+        </div>
+      </div>
+    </section>
+
+    <section class="section highlights">
+      <article class="highlight-card">
+        <h3>Conciergerie complete</h3>
+        <p>Transferts, reservations, surprises en chambre et coordination sur place.</p>
+      </article>
+      <article class="highlight-card">
+        <h3>Selection premium</h3>
+        <p>Une collection resserree d'hotels, villas et experiences verifiees par nos equipes.</p>
+      </article>
+      <article class="highlight-card">
+        <h3>Accompagnement humain</h3>
+        <p>Un interlocuteur dedie avant, pendant et apres le voyage pour tout ajustement.</p>
+      </article>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="section-label">Contact</p>
+        <h2>Parlez-nous de votre prochain depart</h2>
+      </div>
+
+      <form class="contact-form" action="#">
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Nom complet">
+          <input type="email" name="email" placeholder="Adresse email">
+        </div>
+        <input type="text" name="subject" placeholder="Sujet de votre demande">
+        <textarea name="message" rows="6" placeholder="Decrivez votre projet de voyage"></textarea>
+        <button type="submit">Envoyer la demande</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

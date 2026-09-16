@@ -1,0 +1,11 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#D7E2E8"/>
+  <rect y="530" width="1200" height="270" fill="#97A9B5"/>
+  <path d="M70 580L350 210L600 580H70Z" fill="#516675"/>
+  <path d="M260 580L560 160L870 580H260Z" fill="#6B8190"/>
+  <path d="M610 580L920 250L1130 580H610Z" fill="#445865"/>
+  <path d="M281 334L350 210L438 334H281Z" fill="#F2F6F8"/>
+  <path d="M454 305L560 160L684 305H454Z" fill="#F8FBFC"/>
+  <path d="M780 389L920 250L1014 389H780Z" fill="#EFF4F6"/>
+  <text x="92" y="120" fill="#23333D" font-family="Arial, sans-serif" font-size="68" font-weight="700">Alpes</text>
+</svg>

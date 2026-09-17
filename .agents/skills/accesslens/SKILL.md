@@ -93,7 +93,10 @@ Récupère la sortie de chaque agent spécialisé invoqué telle quelle : liste 
 sélectionnées et adaptées au code réel (référence du critère, pourquoi il s'applique, ce qu'il
 faut changer, suggestion concrète).
 
-## Étape 3.5 — Faire trancher le PO sur les contenus manquants
+
+### Étape 3.1 — Faire trancher le PO sur les contenus manquants
+
+Si aucune recommandation ne nécessite un contenu concret décidé par le PO, cette étape est ignorée.
 
 Les agents spécialisés RGAA (étape 3) identifient *qu'*un contenu concret manque (ex : un `alt`
 à ajouter, un message d'erreur de champ, un intitulé de label, un texte de lien) mais ne

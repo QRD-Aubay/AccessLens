@@ -93,8 +93,8 @@ Aucun fichier de checklist n'a été généré et aucun commentaire détaillé n
 ticket pour ce traitement.
 ```
 
-Dans ce cas, ne génère pas de fichier `docs/accessibility/<TICKET-ID>-checklist.md` et ne mets
-pas à jour le champ custom Jira. Le commentaire Jira (si un est posté, voir SKILL.md de
+Dans ce cas, ne génère pas de fichier `docs/accessibility/<TICKET-ID>-checklist.md` et ne joins
+aucune pièce jointe au ticket. Le commentaire Jira (si un est posté, voir SKILL.md de
 l'orchestrateur) doit reprendre ce même contenu court, sans les sections normales.
 
 ## Métriques d'exécution (chat uniquement)

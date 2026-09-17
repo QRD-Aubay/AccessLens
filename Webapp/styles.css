@@ -158,6 +158,10 @@ a {
   transition: opacity 0.35s ease;
 }
 
+.slide-figure {
+  display: contents;
+}
+
 .slide-image {
   width: 100%;
   height: 500px;

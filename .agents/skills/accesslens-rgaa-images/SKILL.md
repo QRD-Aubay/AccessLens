@@ -8,7 +8,7 @@ user-invocable: false
 
 Ce document indique à un agent comment **stress-tester une user story** contre les 9 critères de la thématique *Images* du RGAA 4.1.2.
 
-Le référentiel machine-lisible est dans [rgaa-images-criteria.yaml](./referentiel/rgaa-images-criteria.yaml) 
+Le référentiel machine-lisible est dans [rgaa-images-criteria.yaml](../../referentiel/rgaa-images-criteria.yaml) 
 
 ---
 
@@ -35,7 +35,7 @@ Pour **chaque critère** du fichier YAML (1.1 → 1.9), l'agent doit :
 
 ## 3. Sortie attendue (Markdown)
 
-L'agent produit un rapport structuré [OUTPUT-MARDOWN.md](./OUTPUT-MARDOWN.md).
+L'agent produit un rapport structuré [MARKDOWN-SPECIALIZED-OUTPUT.md](../../docs/MARKDOWN-SPECIALIZED-OUTPUT.md).
 
 ## 4. Règles de décision
 
@@ -48,7 +48,7 @@ L'agent produit un rapport structuré [OUTPUT-MARDOWN.md](./OUTPUT-MARDOWN.md).
 
 ## 5. Format machine (optionnel)
 
-En plus du Markdown, l'agent peut émettre un JSON miroir [OUTPUT-JSON.json](./OUTPUT-JSON.json)
+En plus du Markdown, l'agent peut émettre un JSON miroir [JSON-SPECIALIZED-OUTPUT.md](../../docs/JSON-SPECIALIZED-OUTPUT.md)
 
 ## 6. Références
 
